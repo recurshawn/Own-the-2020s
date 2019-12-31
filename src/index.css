@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.NavBar {
+  color: white;
+  background-color: #5e4cd6;
+  padding: 15px;
+  margin: 0;
+}
+
+.block.wrapper
+{
+  padding: 10px;
+}
+
+.Footer{
+  
+}
