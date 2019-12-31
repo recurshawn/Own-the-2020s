@@ -60,7 +60,7 @@ class App extends React.Component {
             <option value="month">month</option>
           </select> in the 2020s.</p>
           <br />
-          <button onClick={this.state.calculate} className="block accent">Calculate free time</button>
+          <button onClick={this.calculate} className="block accent">Calculate free time</button>
         </div>
         <br />
         <div className="Output wrapper block fixed">
