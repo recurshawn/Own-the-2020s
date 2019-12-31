@@ -36,7 +36,14 @@ class App extends React.Component {
     this.getHoursPerDay();
   }
   getHours = (e) => {
-    this.setState({ hours: e.target.value });
+    if(e.target.value=='')
+    {
+      this.setState({ hours: 2 });
+    }
+    else
+    {
+      this.setState({ hours: e.target.value });
+    }
     this.getHoursPerDay();
   }
 
@@ -44,6 +51,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <NavBar />
+    <p>{this.state.hoursPerDay}</p>
         <br />
         <div className="wrapper block fixed Input">
           <p>I plan on giving up <input onChange={this.getHours} className="wrapper block fixed inline" type="number" name="hours" placeholder="2" /> hours of <input className="wrapper block inline fixed" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="wrapper block fixed inline">

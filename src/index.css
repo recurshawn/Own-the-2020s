@@ -24,7 +24,14 @@ code {
   padding: 10px;
 }
 
-.Footer{
-
+.signature{
+  background-color: #5e4cd6;
+  color: white;
+  padding-top: 5px;
   padding-bottom: 10px;
+}
+
+a
+{
+  color: #00ffc3;
 }
