@@ -6,12 +6,38 @@ import './App.css';
 class App extends React.Component {
 
   state = {
-    habit : "Netflix",
-    totalHours: 0,
+    habit: "Netflix",
+    hours: 2,
+    unitTime: "day",
+    hoursPerDay: 2,
+    hoursSaved: { month: 60, year: 730, decade: 7306 },
   }
 
   calculate = () => {
-    
+    this.setState({ hoursSaved: { month: (this.state.hoursPerDay * 30), year: (this.state.hoursPerDay * 365), decade: (this.state.hoursPerDay * 3653) } });
+  }
+
+  getHoursPerDay = () => {
+
+    if (this.state.unitTime == "week") {
+      this.setState({ hoursPerDay: (this.state.hours / 7) });
+    }
+    else if (this.state.unitTime == "month") {
+      this.setState({ hoursPerDay: (this.state.hours / 30) });
+    }
+    else if (this.state.unitTime == "day") {
+      this.setState({ hoursPerDay: this.state.hours });
+    }
+
+  }
+
+  getUnitTime = (e) => {
+    this.setState({ unitTime: e.target.value });
+    this.getHoursPerDay();
+  }
+  getHours = (e) => {
+    this.setState({ hours: e.target.value });
+    this.getHoursPerDay();
   }
 
   render() {
@@ -20,9 +46,9 @@ class App extends React.Component {
         <NavBar />
         <br />
         <div className="wrapper block fixed Input">
-          <p>I plan on giving up <input className="wrapper block fixed inline" type="number" name="hours" placeholder="2" /> hours of <input className="wrapper block inline fixed" type="text" name="habit" placeholder="Netflix" /> per <select className="wrapper block fixed inline">
-            <option value="week">week</option>
+          <p>I plan on giving up <input onChange={this.getHours} className="wrapper block fixed inline" type="number" name="hours" placeholder="2" /> hours of <input className="wrapper block inline fixed" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="wrapper block fixed inline">
             <option value="day">day</option>
+            <option value="week">week</option>
             <option value="month">month</option>
           </select> in the 2020s.</p>
           <br />
@@ -30,10 +56,13 @@ class App extends React.Component {
         </div>
         <br />
         <div className="Output wrapper block fixed">
-          <p>You can save X hours per month, 12X hours per year AND 120X hours in the 2020s!</p>
+          <p>You can save {this.state.hoursSaved.month} hours per month, {this.state.hoursSaved.year} hours per year AND {this.state.hoursSaved.decade} hours in the 2020s!</p>
+          <br />
+          <img src="https://media2.giphy.com/media/5Zesu5VPNGJlm/source.gif" />
+          <br />
           <p>You can learn to code and get a tech job with that time!</p>
         </div>
-        <br/>
+        <br />
         <Footer />
       </div>
     );
