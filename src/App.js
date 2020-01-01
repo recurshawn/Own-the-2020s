@@ -28,13 +28,14 @@ class App extends React.Component {
     else if (this.state.unitTime == "day") {
       this.setState({ hoursPerDay: this.state.hours });
     }
-
+    
   }
 
   getUnitTime = (e) => {
     this.setState({ unitTime: e.target.value });
     this.getHoursPerDay();
   }
+
   getHours = (e) => {
     if(e.target.value=='')
     {
