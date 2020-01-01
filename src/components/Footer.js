@@ -9,6 +9,7 @@ const Footer = () => {
                 <p>Have an awesome 2020 and the decade ahead!</p>
             </div>
             <br />
+            <br />
             <div className="signature">
                 <p>Made with ❤️ by Shawn Pereira <a href="https://twitter.com/Incept_shawn">@Incept_shawn</a>
                     <br /><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn">🚀 Support this project!</a></p>
