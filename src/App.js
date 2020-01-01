@@ -17,23 +17,23 @@ class App extends React.Component {
     this.setState({ hoursSaved: { month: (this.state.hoursPerDay * 30), year: (this.state.hoursPerDay * 365), decade: (this.state.hoursPerDay * 3653) } });
   }
 
-  getHoursPerDay = () => {
+  getHoursPerDay = (hours, unitTime) => {
 
-    if (this.state.unitTime == "week") {
-      this.setState({ hoursPerDay: (this.state.hours / 7) });
+    if (unitTime == "week") {
+      this.setState({ hoursPerDay: (hours / 7) });
     }
-    else if (this.state.unitTime == "month") {
-      this.setState({ hoursPerDay: (this.state.hours / 30) });
+    else if (unitTime == "month") {
+      this.setState({ hoursPerDay: (hours / 30) });
     }
-    else if (this.state.unitTime == "day") {
-      this.setState({ hoursPerDay: this.state.hours });
+    else if (unitTime == "day") {
+      this.setState({ hoursPerDay: hours });
     }
-    
+
   }
 
   getUnitTime = (e) => {
     this.setState({ unitTime: e.target.value });
-    this.getHoursPerDay();
+    this.getHoursPerDay(this.state.hours, e.target.value);
   }
 
   getHours = (e) => {
@@ -45,7 +45,8 @@ class App extends React.Component {
     {
       this.setState({ hours: e.target.value });
     }
-    this.getHoursPerDay();
+
+    this.getHoursPerDay(e.target.value, this.state.unitTime);
   }
 
   render() {
