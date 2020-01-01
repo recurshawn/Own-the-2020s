@@ -15,6 +15,8 @@ class App extends React.Component {
     hoursSaved: { month: 60, year: 730, decade: 7306 },
     gif: "https://media.tenor.com/images/24827d8ae580f99b6955930bf461cab2/tenor.gif",
     message: "GG! You can master any language you choose! 🔥",
+    message2: "",
+    message3: "",
     url: "Source: https://www.clozemaster.com/blog/how-long-does-it-take-to-learn-a-language/",
   }
 
@@ -29,7 +31,7 @@ class App extends React.Component {
     this.setState({ hoursSaved: { month: (this.state.hoursPerDay * 30), year: (this.state.hoursPerDay * 365), decade: (this.state.hoursPerDay * 3653) } });
     var ran = this.shuffle(Data);
     ran = ran.filter(datum => datum.requiredHours <= (this.state.hoursPerDay*3653));
-    this.setState({gif: ran[0].gifURL, message: ran[0].message, url: ran[0].URL});
+    this.setState({gif: ran[0].gifURL, message: ran[0].message, url: ran[0].URL, message2: ran[0].message2, message3: ran[0].message3});
   }
 
 
