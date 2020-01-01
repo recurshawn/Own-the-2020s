@@ -77,7 +77,7 @@ const Data = [
         existsURL: false,
         message:"WOAH! You can become an utra-competitive expert in any field you want with time like this!",
         message2: "Put in the hours 💪",
-        message3: "Or, you know, you could just read a million pages of books!",
+        message3: "Or, you know, you could just read a million pages of books! 😂",
         URL: ""
     }
 ];
