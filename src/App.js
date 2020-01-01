@@ -89,6 +89,8 @@ class App extends React.Component {
           <img src={this.state.gif}/>
           <br />
           <p>{this.state.message}</p>
+          <p>{this.state.message2}</p>
+          <p>{this.state.message3}</p>
         </div>
         <br />
         <Footer />
