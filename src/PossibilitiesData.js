@@ -4,41 +4,53 @@ const Data = [
         gifURL: "https://i.giphy.com/media/5Zesu5VPNGJlm/source.gif",
         existsURL: false,
         message:"You can learn to code and get a tech job!",
-        URL: ""
+        URL: "",
+        message2: "",
+        message3: ""
     },
     {
         requiredHours: 100,
         gifURL: "https://i.giphy.com/media/QbkL9WuorOlgI/giphy.webp",
         existsURL: false,
         message:"You can spend more quality time with your loved ones! ❤️",
-        URL: ""
+        URL: "",
+        message2: "",
+        message3: ""
     },
     {
         requiredHours: 100,
         gifURL: "https://i.giphy.com/media/xThuWwRYOZdfcODqVy/giphy.webp",
         existsURL: false,
         message:"You have a lot more time for meditation and exercise. Stay healthy!",
-        URL: ""
+        URL: "",
+        message2: "",
+        message3: ""
     },
     {
         requiredHours: 1100,
         gifURL: "https://media.tenor.com/images/24827d8ae580f99b6955930bf461cab2/tenor.gif",
         existsURL: true,
         URL: "https://www.clozemaster.com/blog/how-long-does-it-take-to-learn-a-language/",
-        message:"You can master almost language you want!"
+        message:"You can master almost language you want!",
+        message2: "",
+        message3: ""
     },
     {
         requiredHours: 2200,
         gifURL: "https://media.tenor.com/images/24827d8ae580f99b6955930bf461cab2/tenor.gif",
         existsURL: true,
         URL: "https://www.clozemaster.com/blog/how-long-does-it-take-to-learn-a-language/",
-        message:"GG! You can master any language you choose! 🔥"
+        message:"GG! You can master any language you choose! 🔥",
+        message2: "",
+        message3: ""
     },
     {
         requiredHours: 3000,
         gifURL: "https://i.makeagif.com/media/7-12-2015/kYhjVR.gif",
         existsURL: false,
         message:"You can save enough time to learn a college-degree's worth online! 🎓",
+        message2: "",
+        message3: "",
         URL: ""
     },
     {
