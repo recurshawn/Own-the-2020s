@@ -45,24 +45,27 @@ const Data = [
         requiredHours: 10000,
         gifURL: "https://i.giphy.com/media/1jl173guBKkbvC03rQ/giphy.webp",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
-         Maybe try advanced math!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪"
+        message2: "Put in the hours 💪",
+        message3: "Maybe try advanced math!",
         URL: ""
     },
     {
         requiredHours: 10000,
         gifURL: "https://i.gifer.com/V4WN.gif",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
-         Hmmm, Computer Science looks interesting!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪",
+        message2: "Put in the hours 💪",
+        message3: "Hmmm, Computer Science looks interesting!",
         URL: ""
     },
     {
         requiredHours: 10000,
         gifURL: "https://booksrockmyworlddotcom.files.wordpress.com/2019/03/bookworm-gif.gif",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
-         Or, you know, you could just read a million pages of books!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this!",
+        message2: "Put in the hours 💪",
+        message3: "Or, you know, you could just read a million pages of books!",
         URL: ""
     }
 ];
