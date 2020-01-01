@@ -57,7 +57,7 @@ const Data = [
         requiredHours: 10000,
         gifURL: "https://i.giphy.com/media/1jl173guBKkbvC03rQ/giphy.webp",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪"
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this!",
         message2: "Put in the hours 💪",
         message3: "Maybe try advanced math!",
         URL: ""
@@ -66,7 +66,7 @@ const Data = [
         requiredHours: 10000,
         gifURL: "https://i.gifer.com/V4WN.gif",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this!",
         message2: "Put in the hours 💪",
         message3: "Hmmm, Computer Science looks interesting!",
         URL: ""

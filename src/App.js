@@ -84,7 +84,7 @@ class App extends React.Component {
         </div>
         <br />
         <div className="Output wrapper block fixed">
-          <p>You can save {Math.round(this.state.hoursSaved.month)} hours per month, {Math.round(this.state.hoursSaved.year)} hours per year AND {Math.round(this.state.hoursSaved.decade)} hours in the 2020s!</p>
+          <p>You can save {Math.round(this.state.hoursSaved.month)} hours per month, {Math.round(this.state.hoursSaved.year)} hours per year AND <span className="TotalHours">{Math.round(this.state.hoursSaved.decade)} hours</span> in the entire 2020s!</p>
           <br />
           <img src={this.state.gif}/>
           <br />
