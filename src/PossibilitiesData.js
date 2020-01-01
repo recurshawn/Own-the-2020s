@@ -1,21 +1,21 @@
 const Data = [
     {
         requiredHours: 100,
-        gifURL: "https://media2.giphy.com/media/5Zesu5VPNGJlm/source.gif",
+        gifURL: "https://i.giphy.com/media/5Zesu5VPNGJlm/source.gif",
         existsURL: false,
         message:"You can learn to code and get a tech job!",
         URL: ""
     },
     {
         requiredHours: 100,
-        gifURL: "https://media2.giphy.com/media/QbkL9WuorOlgI/giphy.gif",
+        gifURL: "https://i.giphy.com/media/QbkL9WuorOlgI/giphy.webp",
         existsURL: false,
         message:"You can spend more quality time with your loved ones! ❤️",
         URL: ""
     },
     {
         requiredHours: 100,
-        gifURL: "https://media2.giphy.com/media/xThuWwRYOZdfcODqVy/giphy.gif",
+        gifURL: "https://i.giphy.com/media/xThuWwRYOZdfcODqVy/giphy.webp",
         existsURL: false,
         message:"You have a lot more time for meditation and exercise. Stay healthy!",
         URL: ""
@@ -43,23 +43,26 @@ const Data = [
     },
     {
         requiredHours: 10000,
-        gifURL: "https://media3.giphy.com/media/1jl173guBKkbvC03rQ/giphy.gif",
+        gifURL: "https://i.giphy.com/media/1jl173guBKkbvC03rQ/giphy.webp",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \n Maybe try advanced math!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
+         Maybe try advanced math!",
         URL: ""
     },
     {
         requiredHours: 10000,
         gifURL: "https://i.gifer.com/V4WN.gif",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \n Hmmm, Computer Science looks interesting!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
+         Hmmm, Computer Science looks interesting!",
         URL: ""
     },
     {
         requiredHours: 10000,
-        gifURL: "https://booksrockmyworlddotcom.files.wordpress.com/2019/03/bookworm-gif.gif?w=330&h=245",
+        gifURL: "https://booksrockmyworlddotcom.files.wordpress.com/2019/03/bookworm-gif.gif",
         existsURL: false,
-        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \n Or, you know, you could just read a million pages of books!",
+        message:"WOAH! You can become an utra-competitive expert in any field you want with time like this! Put in the hours 💪 \
+         Or, you know, you could just read a million pages of books!",
         URL: ""
     }
 ];
