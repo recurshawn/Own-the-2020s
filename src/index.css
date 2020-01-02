@@ -43,3 +43,16 @@ img{
 .TotalHours {
   background-color: yellow;
 }
+
+.inputNumber
+{
+  width: 40px;
+}
+
+input
+{
+  border: 3px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+
+}

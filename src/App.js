@@ -81,7 +81,7 @@ class App extends React.Component {
         <NavBar />
         <br />
         <div className="wrapper block fixed Input">
-          <p>I plan on giving up <input onChange={this.getHours} className="wrapper block fixed inline" type="number" name="hours" placeholder="2" /> hours of <input className="wrapper block inline fixed" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="wrapper block fixed inline">
+          <p>I plan on giving up <input onChange={this.getHours} className="inputNumber" type="number" name="hours" placeholder="2" /> hours of <input className="inputText" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="wrapper block fixed inline">
             <option value="day">day</option>
             <option value="week">week</option>
             <option value="month">month</option>
@@ -91,7 +91,7 @@ class App extends React.Component {
         </div>
         <br />
         <div className="Output wrapper block fixed">
-          <p>You can save {Math.round(this.state.hoursSaved.month)} hours per month, {Math.round(this.state.hoursSaved.year)} hours per year AND <span className="TotalHours">{Math.round(this.state.hoursSaved.decade)} hours</span> in the entire 2020s!</p>
+          <p>You can save {Math.round(this.state.hoursSaved.month)} hours per month, {Math.round(this.state.hoursSaved.year)} hours per year AND <span className="TotalHours">{Math.round(this.state.hoursSaved.decade)} hours</span> in the entire decade!</p>
           <br />
           <img src={this.state.gif}/>
           <br />
