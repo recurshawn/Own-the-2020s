@@ -81,7 +81,7 @@ class App extends React.Component {
         <NavBar />
         <br />
         <div className="wrapper block fixed Input">
-          <p>I plan on giving up <input onChange={this.getHours} className="inputNumber" type="number" name="hours" placeholder="2" /> hours of <input className="inputText" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="wrapper block fixed inline">
+          <p>I plan on giving up <input onChange={this.getHours} className="inputNumber" type="number" name="hours" placeholder="2" /> hours of <input className="inputText" type="text" name="habit" placeholder="Netflix" /> per <select onChange={this.getUnitTime} className="inputSelect">
             <option value="day">day</option>
             <option value="week">week</option>
             <option value="month">month</option>
