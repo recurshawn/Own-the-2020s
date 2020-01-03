@@ -21,7 +21,7 @@ Visualize the time you can save if you give up a habit in the new decade with Ow
 
 ### Working on WhatsAppr locally ###
 - Clone the repository locally. 
-- Navigate to the directory. `cd whatsappr`.
+- Navigate to the directory. `cd Own-the-2020s`.
 - Run `npm install` to install dependencies.
 - Run `npm run start` to start the development server.
 - Run `npm run test` to test.
