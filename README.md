@@ -19,7 +19,7 @@ Visualize the time you can save if you give up a habit in the new decade with Ow
 - CSS, [blocks.css](https://github.com/thesephist/blocks.css)
 - JavaScript, [React.js](https://reactjs.org/)
 
-### Working on WhatsAppr locally ###
+### Working on 'Own The 2020s' locally ###
 - Clone the repository locally. 
 - Navigate to the directory. `cd Own-the-2020s`.
 - Run `npm install` to install dependencies.
