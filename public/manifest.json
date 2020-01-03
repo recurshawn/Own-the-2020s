@@ -33,13 +33,13 @@
       "sizes": "256x256"
     }
     {
-      "src": "logo512.png",
+      "src": "logo256.png",
       "type": "image/png",
-      "sizes": "256x256"
+      "sizes": "512x512"
     }
   ],
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#5e4cd6"
 }
