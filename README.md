@@ -7,3 +7,22 @@
 
 Visualize the time you can save if you give up a habit in the new decade with Own The 2020s.
 
+## Contributing
+
+### Ways you can contribute: ###
+- [Contribute to the code](https://github.com/recurshawn/Own-the-2020s) Check the next section for technical details of the project.
+- [Monetary Donation](https://ko-fi.com/recurshawn)
+- Emotional Support: [Tell me you liked this!](https://twitter.com/Incept_shawn)
+
+### Technology Stack: ###
+- HTML
+- CSS, [blocks.css](https://github.com/thesephist/blocks.css
+- JavaScript, [React.js](https://reactjs.org/)
+
+### Working on WhatsAppr locally ###
+- Clone the repository locally. 
+- Navigate to the directory. `cd whatsappr`.
+- Run `npm install` to install dependencies.
+- Run `npm run start` to start the development server.
+- Run `npm run test` to test.
+- Run `npm run build` to create a optimized production build.
