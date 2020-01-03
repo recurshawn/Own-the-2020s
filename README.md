@@ -1,1 +1,1 @@
-# (Own the 2020s)[own2020s.com]
+# [Own the 2020s](https://own2020s.com)
