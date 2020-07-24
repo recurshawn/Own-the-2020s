@@ -31,7 +31,7 @@ class App extends React.Component {
     this.setState({ hoursSaved: { month: (this.state.hoursPerDay * 30), year: (this.state.hoursPerDay * 365), decade: (this.state.hoursPerDay * 3653) } });
     var ran = this.shuffle(Data);
     ran = ran.filter(datum => datum.requiredHours <= (this.state.hoursPerDay*3653));
-    if(ran[0].message==this.state.message)
+    if(ran[0].message === this.state.message)
     {
       this.setState({gif: "https://i.giphy.com/media/LkjlH3rVETgsg/source.gif", message: "You can read "+(this.state.hoursPerDay*36530)+" pages!", url: "", message2: "", message3: ""});
     }
@@ -45,13 +45,13 @@ class App extends React.Component {
 
   getHoursPerDay = (hours, unitTime) => {
 
-    if (unitTime == "week") {
+    if (unitTime === "week") {
       this.setState({ hoursPerDay: (hours / 7) });
     }
-    else if (unitTime == "month") {
+    else if (unitTime === "month") {
       this.setState({ hoursPerDay: (hours / 30) });
     }
-    else if (unitTime == "day") {
+    else if (unitTime === "day") {
       this.setState({ hoursPerDay: hours });
     }
 
@@ -63,7 +63,7 @@ class App extends React.Component {
   }
 
   getHours = (e) => {
-    if(e.target.value=='')
+    if(e.target.value ==='')
     {
       this.setState({ hours: 2 });
     }
