@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="signature">
                 <p>Made with <Emoji symbol="❤️" value="love"/> by Shawn Pereira <a href="https://twitter.com/recurshawn">@recurshawn</a>
                     <br /><a target="_blank" rel="noopener noreferrer" href="https://ko-fi.com/recurshawn"><Emoji symbol="🚀" value="rocket"/> Support this project!</a></p>
-                <a href="https://shawnpereira.me">shawnpereira.me</a>
+                <a href="https://shawn.app">shawn.app</a>
                 <br />{new Date().getFullYear()} © Shawn Pereira | MIT License
         </div>
         </div>
