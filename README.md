@@ -3,7 +3,8 @@
 ![GitHub](https://img.shields.io/github/license/recurshawn/Own-the-2020s?label=License&style=flat-square)
 ![Star this repository](https://img.shields.io/github/stars/recurshawn/Own-the-2020s?style=social)
 [![Follow me on Twitter](https://img.shields.io/twitter/follow/recurshawn?style=social)](https://twitter.com/recurshawn)
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/recurshawn)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/recurshawn)
+
 
 Visualize the time you can save if you give up a habit in the new decade with Own The 2020s.
 
